@@ -28,7 +28,7 @@ export default (state = initialState, action) => {
         case INCREMENT:
             return{ value: state.value + 1 }
         case DECREMENT:
-            return{ value: state.value * 500000000000 }
+            return{ value: state.value * 1 }
         case TIMES:
             return{ value: state.value * 2 }
         default:
